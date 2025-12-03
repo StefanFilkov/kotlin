@@ -8,8 +8,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="16dp">
-
-        <!-- Заглавие – сложи твоя факултетен номер -->
+        
         <TextView
             android:id="@+id/tvTitle"
             android:layout_width="wrap_content"
@@ -20,7 +19,6 @@
             android:textSize="22sp"
             android:textStyle="bold" />
 
-        <!-- Поле: Код на карта -->
         <EditText
             android:id="@+id/etCardCode"
             android:layout_width="match_parent"
@@ -29,7 +27,6 @@
             android:hint="Код на карта"
             android:inputType="number" />
 
-        <!-- Поле: Име на университет -->
         <EditText
             android:id="@+id/etUniversity"
             android:layout_width="match_parent"
@@ -37,7 +34,6 @@
             android:layout_marginBottom="12dp"
             android:hint="Име на университет" />
 
-        <!-- Поле: Име и фамилия -->
         <EditText
             android:id="@+id/etFullName"
             android:layout_width="match_parent"
@@ -45,7 +41,6 @@
             android:layout_marginBottom="16dp"
             android:hint="Име и фамилия" />
 
-        <!-- Бутон: Проверка -->
         <Button
             android:id="@+id/btnCheck"
             android:layout_width="wrap_content"
@@ -53,7 +48,6 @@
             android:layout_marginBottom="24dp"
             android:text="Проверка" />
 
-        <!-- Място за показване на въведените данни -->
         <TextView
             android:id="@+id/tvEnteredDataTitle"
             android:layout_width="wrap_content"
